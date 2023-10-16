@@ -39,7 +39,7 @@ router.delete('/blog/:id',auth,blogController.delete)
 router.post('/comment',auth,commentController.create)
 
 //get
-router.get('/comment/:id',auth,commentController.getById)
+router.get('/comments/:id',auth,commentController.getById)
 //read comments by blog id
 
 
